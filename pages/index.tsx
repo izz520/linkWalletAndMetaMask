@@ -1,7 +1,7 @@
 import { WalletConnect } from '@web3-react/walletconnect';
 import styles from '../styles/Home.module.css'
-import { walletConnect, hooks as walletHooks } from './web3/connects/wallet';
-import { metaMask, hooks as metamaskHook } from "./web3/connects/metamask"
+import { walletConnect, hooks as walletHooks } from '../web3/connects/wallet';
+import { metaMask, hooks as metamaskHook } from "../web3/connects/metamask"
 import { useWeb3React } from '@web3-react/core';
 type ConnectType = "metamask" | "wallet"
 export default function Home() {
